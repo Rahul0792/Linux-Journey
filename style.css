@@ -105,18 +105,18 @@ h2{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 35px 20px;
 
 }
 .img-items{
-      gap: 22px;
-   justify-content: center;
+  gap: 25px;
+  justify-content: center;
   height: 300px;
   width: 250px;
   padding: 30px;
   display: flex;
   flex-direction: column;
-align-items: center; 
+ align-items: center; 
  background-color: white; 
  border-radius: 3px;
 }
