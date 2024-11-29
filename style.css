@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(250, 244, 248);
+}
+.header-container {
+  height: 50px;
+  width: 100%;
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  justify-content:space-between;
+
+}
+
+.header-item,a {
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+
+}
+.logo-container{
+  height: 550px;
+  background-color: #18BC9C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo{
+  margin-bottom: 60px;
+}
+.logo-head,h1{
+  color: white;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+.logo-bottom{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 10px 0px ;
+}
+.logo-bottom,p{
+  color: #999;;
+}
+
+.email-div{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+input{
+  border-radius: 5px;
+  width: 350px;
+}
+button{
+  background-color: rgb(24, 188, 156);
+  height: 36px;
+  width: 75px;
+  border-radius: 5px;
+}
+
+.item-container{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-size: 30px;
+  color: #999;
+  
+}
+
+
+.img-container{
+  height: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.middle{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.img-items{
+   /* justify-content: center; */
+  margin: 20px;
+  height: 300px;
+  width: 250px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+align-items: center; 
+ background-color: white; 
+ border-radius: 3px;
+}
+img{
+  margin-top: 10px;
+   border-radius: 150px;
+   height: 150px;
+   width: 150px;
+}
+.item-containerr{
+  margin-top: 30px;
+  margin-left: 40%;
+}
+.footer-details{
+height: 300px;
+width: 300px;
+margin: 20px;
+background-color: aliceblue;
+  background-color:#2C3E50;
+}
+.footer-containerr{
+  display: flex;
+  justify-content: center;
+  background-color:#2C3E50;
+}
+
+.nomad{
+  margin-left: 45%;
+  margin-bottom: 20px;
+}
+
+
